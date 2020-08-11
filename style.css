@@ -1,0 +1,41 @@
+h1{
+	font-size: 50px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.container { /*가로정렬*/
+	width:700px; 
+	left:0; 
+	right:0; 
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+hr {
+	border : solid 1px #eee;
+}
+
+div #box1 {
+	font-size: 25px;
+	width: 50%;
+	float: left;
+
+}
+
+div #box2 {
+	font-size: 18px;
+	width: 50%;
+	float: right;
+}
+
+div .resume_box {
+	overflow: hidden;
+}
+
+
+
+
+
