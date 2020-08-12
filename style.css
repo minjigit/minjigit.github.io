@@ -1,3 +1,5 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 h1{
 	font-size: 50px;
 }
@@ -7,6 +9,7 @@ p {
 }
 
 .container { /*가로정렬*/
+	font-family: "Noto Sans KR", sans-serif;
 	width:700px; 
 	left:0; 
 	right:0; 
@@ -33,6 +36,33 @@ div #box2 {
 
 div .resume_box {
 	overflow: hidden;
+}
+
+div .skill_box{
+	overflow: hidden;
+}
+
+div #skill_1 {
+	color: #1F4FDE;
+	width: 110px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+	border: solid 1px #1F4FDE;
+	border-radius: 20px;
+
+}
+
+div #skill_2 {
+	color: #1F4FDE;
+	width: 110px;
+	padding: 10px;
+	margin-left: 10px;
+	float: left;
+	text-align: center;
+	border: solid 1px #1F4FDE;
+	border-radius: 20px;
+
 }
 
 
